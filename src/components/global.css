@@ -36,6 +36,8 @@ body {
 #ctabody{
 margin: 10vw 0 0 10vw;
 max-width: 20vw;
+position: absolute;
+z-index: 999999999999;
 }
 
 .siteCta {
@@ -63,10 +65,17 @@ padding: -10px;
   border-radius: 15px 15px 3px 3px;
   padding: 6px 30px 6px 30px;
   width: 18vw;
+  min-width: 140px;
   font-weight: 800;
 
   background-color: #efd387;
 }
+
+/* @media only screen and (max-width: 800px) {
+#logIn-btn {
+
+  }
+} */
 
 #signUp-btn {
   margin:  0 0 0 2vw;
@@ -75,6 +84,7 @@ padding: -10px;
   padding: 6px 30px 6px 30px;
   color: white;
   width: 18vw;
+  min-width: 140px;
   font-weight: 800;
   background-color: rgb(73, 73, 73);
 }
