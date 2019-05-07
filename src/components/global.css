@@ -1,0 +1,82 @@
+body {
+  background-color: #33aeae;
+}
+
+.siteTitle {
+  position: sticky;
+  margin: 0px 0 0 25px;
+  z-index: 9999999;
+  color: #fff;
+  filter:drop-shadow(2px 2px #33aeae);
+  text-shadow: 2px 2px #55aeae, -2px -2px #55aeae;
+  font-size: 3vw;
+  letter-spacing: 3px;
+  padding: 0;
+
+}
+
+#clouds {
+  opacity: 0.1;
+}
+
+
+#SchutzParalax {
+  width: 100%;
+  margin: 10vw 0 0 50vw;
+}
+
+#ClockParalax {
+  width: 120%;
+  margin: 10vw 0 0 53vw;
+}
+
+/* Call to action text below */
+
+
+#ctabody{
+margin: 10vw 0 0 10vw;
+max-width: 20vw;
+}
+
+.siteCta {
+  margin:  0 0 0 0;
+}
+
+#cta-titleOne {
+color: white;
+text-align: right;
+font-weight: 800;
+font-size: 2vw;
+padding: -10px;
+}
+
+#cta-copy {
+  color: #efd387;
+  text-align: right;
+  margin: -50px 0 0 0;
+  font-size: 1.2vw;
+}
+
+#logIn-btn {
+  margin:  5px 10px 0 0 0px;
+  outline: transparent!important;
+  border-radius: 3px 3px 3px 15px;
+  padding: 6px 30px 6px 30px;
+  width: 10vw;
+  font-weight: 800;
+  float: left;
+  background-color: #efd387;
+}
+
+#signUp-btn {
+  margin:  0 0 0 0;
+  outline: transparent!important;
+  border-radius: 3px 3px 15px 3px;
+  padding: 6px 30px 6px 30px;
+  color: white;
+  float: right;
+  width: 10vw;
+  font-weight: 800;
+  background-color: rgb(73, 73, 73);
+}
+
