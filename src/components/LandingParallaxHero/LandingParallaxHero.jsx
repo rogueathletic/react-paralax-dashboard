@@ -20,6 +20,7 @@ import GearsParalax from "./svg/GearsParalax";
 import StarsParalax from "./svg/StarsParalax";
 import ClockParalax from "./svg/ClockParalax";
 import CalendarParalax from "./svg/CalendarParalax";
+
 const Container = styled.div`
   height: 100vh;
   position: absolute;
@@ -88,7 +89,11 @@ const LandingParallaxHero = ({ yOffset }) => (
       <TransitionParallaxImage />
       <Content/>
     </ParallaxFrontLayer>
+    
   </Container>
+
+  
+
 );
 
 LandingParallaxHero.propTypes = {

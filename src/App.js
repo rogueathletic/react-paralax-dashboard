@@ -2,7 +2,6 @@ import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import { render } from "react-dom";
 import { subscribe } from "subscribe-ui-event";
-
 import LandingParallaxHero from "./components/LandingParallaxHero";
 import "modern-normalize";
 import "./components/global.css";
