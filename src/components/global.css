@@ -53,29 +53,28 @@ padding: -10px;
 #cta-copy {
   color: #efd387;
   text-align: right;
-  margin: -50px 0 0 0;
+  margin: -20px 0 0 0;
   font-size: 1.2vw;
 }
 
 #logIn-btn {
-  margin:  5px 10px 0 0 0px;
+  margin:  20px 0 0 2vw;
   outline: transparent!important;
-  border-radius: 3px 3px 3px 15px;
+  border-radius: 15px 15px 3px 3px;
   padding: 6px 30px 6px 30px;
-  width: 10vw;
+  width: 18vw;
   font-weight: 800;
-  float: left;
+
   background-color: #efd387;
 }
 
 #signUp-btn {
-  margin:  0 0 0 0;
+  margin:  0 0 0 2vw;
   outline: transparent!important;
-  border-radius: 3px 3px 15px 3px;
+  border-radius: 3px 3px 15px 15px;
   padding: 6px 30px 6px 30px;
   color: white;
-  float: right;
-  width: 10vw;
+  width: 18vw;
   font-weight: 800;
   background-color: rgb(73, 73, 73);
 }
